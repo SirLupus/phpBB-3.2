@@ -1,0 +1,14 @@
+#message-box textarea {
+	background: #121212 url("./message.png") right bottom no-repeat;
+}
+
+#message-box textarea:focus {
+  background: #121212;
+}
+
+@media only screen and (min-width: 1080px) {
+        #message-box textarea:focus 
+	{
+  		background: #121212 url("./message.png") right bottom no-repeat;
+	}
+    } 
